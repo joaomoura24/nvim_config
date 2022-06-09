@@ -46,6 +46,7 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim"    -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim"  -- Useful lua functions used ny lots of plugins
 
+  use "ryanoasis/vim-devicons" -- for icons
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use "kyazdani42/nvim-web-devicons"
@@ -60,6 +61,8 @@ return packer.startup(function(use)
   use "goolord/alpha-nvim"
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
+
+  use "tpope/vim-characterize"  -- for revealing character representation with ga
 
   -- Colorschemes
   use "lunarvim/darkplus.nvim"
