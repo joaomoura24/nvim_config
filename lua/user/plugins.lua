@@ -66,7 +66,7 @@ return packer.startup(function(use)
 
   use "lambdalisue/nerdfont.vim"      -- for handling nerd fonts
 
-  use "tpope/vim-characterize"  -- for revealing character representation with ga
+  use "tpope/vim-characterize"  -- for revealing character representation with: ga
 
   -- Colorschemes
   use "lunarvim/darkplus.nvim"
@@ -99,7 +99,8 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  use "JoosepAlviste/nvim-ts-context-commentstring"
+  -- use "JoosepAlviste/nvim-ts-context-commentstring"
+  use "p00f/nvim-ts-rainbow"  -- for colouring brackets
 
   -- Git
   use "lewis6991/gitsigns.nvim"
