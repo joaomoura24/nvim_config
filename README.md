@@ -17,4 +17,9 @@ Open `nvim` and enter the following:
 :checkhealth
 ```
 
-## Other stuff
+## Install fonts
+
+- get any [nerd font](https://www.nerdfonts.com/font-downloads). 
+- move *.ttf font files to folder in ~/.local/share/fonts/<desired_font>
+- fc- cache -f # for cleaning the fonts
+- go to terminal preferences and point to desired font

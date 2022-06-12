@@ -46,10 +46,13 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim"    -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim"  -- Useful lua functions used ny lots of plugins
 
-  use "ryanoasis/vim-devicons" -- for icons
+  -- for pretty incons
+  use "ryanoasis/vim-devicons"
+  use "kyazdani42/nvim-web-devicons"
+  require'nvim-web-devicons'.get_icons()
+
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
-  use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
