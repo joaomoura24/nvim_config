@@ -49,7 +49,6 @@ return packer.startup(function(use)
   -- for pretty incons
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
-  require'nvim-web-devicons'.get_icons()
 
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
