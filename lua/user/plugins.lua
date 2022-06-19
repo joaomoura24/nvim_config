@@ -52,7 +52,7 @@ return packer.startup(function(use)
 
   -- generic plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
-  use "numToStr/Comment.nvim" -- Easily comment stuff
+
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
@@ -100,8 +100,11 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  -- use "JoosepAlviste/nvim-ts-context-commentstring"
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- gives context of the file for commenting
   use "p00f/nvim-ts-rainbow"  -- for colouring brackets
+
+  -- for commenting text (depend on treesitter)
+  use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- Git
   use "lewis6991/gitsigns.nvim"
