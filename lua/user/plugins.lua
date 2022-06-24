@@ -44,7 +44,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   -- A lot of plugins relly on these next two plugins
   use "nvim-lua/popup.nvim"    -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim"  -- Useful lua functions used ny lots of plugins
+  use "nvim-lua/plenary.nvim"  -- Useful lua functions used in lots of plugins
 
   -- for pretty icons
   use "ryanoasis/vim-devicons"
@@ -53,17 +53,17 @@ return packer.startup(function(use)
   -- generic plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
-  use "kyazdani42/nvim-tree.lua"
-  use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
-  use "nvim-lualine/lualine.nvim"
-  use "akinsho/toggleterm.nvim"
-  use "ahmedkhalf/project.nvim"
-  use "lewis6991/impatient.nvim"
-  use "lukas-reineke/indent-blankline.nvim"
-  use "goolord/alpha-nvim"
-  use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
-  use "folke/which-key.nvim"
+  -- use "kyazdani42/nvim-tree.lua"
+  -- use "akinsho/bufferline.nvim"
+  -- use "moll/vim-bbye"
+  -- use "nvim-lualine/lualine.nvim"
+  -- use "akinsho/toggleterm.nvim"
+  -- use "ahmedkhalf/project.nvim"
+  -- use "lewis6991/impatient.nvim"
+  -- use "lukas-reineke/indent-blankline.nvim"
+  -- use "goolord/alpha-nvim"
+  -- use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
+  -- use "folke/which-key.nvim"
 
   use "lambdalisue/nerdfont.vim"      -- for handling nerd fonts
 
@@ -107,7 +107,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- Git
-  use "lewis6991/gitsigns.nvim"
+  -- use "lewis6991/gitsigns.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
