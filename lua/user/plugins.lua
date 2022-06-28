@@ -50,10 +50,14 @@ return packer.startup(function(use)
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
 
+  -- for navigation
+  use "kyazdani42/nvim-tree.lua" -- side nativationg tree - <leader>e
+  use "nvim-telescope/telescope.nvim" -- Telescope - <leader>f
+
+
   -- generic plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
-  -- use "kyazdani42/nvim-tree.lua"
   -- use "akinsho/bufferline.nvim"
   -- use "moll/vim-bbye"
   -- use "nvim-lualine/lualine.nvim"
@@ -91,9 +95,6 @@ return packer.startup(function(use)
   use "tamago324/nlsp-settings.nvim"    -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
   use "RRethy/vim-illuminate"           -- for highlighting keywords
-
-  -- Telescope
-  use "nvim-telescope/telescope.nvim"
 
   -- Treesitter
   use {
