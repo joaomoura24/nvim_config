@@ -57,9 +57,8 @@ return packer.startup(function(use)
 
   -- generic plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
+  use "moll/vim-bbye" -- for keeping nvim open when closing last buffer
 
-  -- use "akinsho/bufferline.nvim"
-  -- use "moll/vim-bbye"
   -- use "nvim-lualine/lualine.nvim"
   -- use "akinsho/toggleterm.nvim"
   -- use "ahmedkhalf/project.nvim"
