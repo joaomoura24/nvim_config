@@ -64,9 +64,9 @@ return packer.startup(function(use)
 
   -- highlight 1st searchable letter
   use "unblevable/quick-scope"
-  -- use "gukz/ftFT.nvim"
 
-  -- use "nvim-lualine/lualine.nvim"
+  use "nvim-lualine/lualine.nvim" -- status line
+
   -- use "ahmedkhalf/project.nvim"
   -- use "lewis6991/impatient.nvim"
   -- use "lukas-reineke/indent-blankline.nvim"
