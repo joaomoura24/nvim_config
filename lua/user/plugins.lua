@@ -59,8 +59,10 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "moll/vim-bbye" -- for keeping nvim open when closing last buffer
 
+  -- terminal access
+  use "akinsho/toggleterm.nvim"
+
   -- use "nvim-lualine/lualine.nvim"
-  -- use "akinsho/toggleterm.nvim"
   -- use "ahmedkhalf/project.nvim"
   -- use "lewis6991/impatient.nvim"
   -- use "lukas-reineke/indent-blankline.nvim"
