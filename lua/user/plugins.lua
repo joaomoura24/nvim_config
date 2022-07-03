@@ -62,6 +62,10 @@ return packer.startup(function(use)
   -- terminal access
   use "akinsho/toggleterm.nvim"
 
+  -- highlight 1st searchable letter
+  use "unblevable/quick-scope"
+  -- use "gukz/ftFT.nvim"
+
   -- use "nvim-lualine/lualine.nvim"
   -- use "ahmedkhalf/project.nvim"
   -- use "lewis6991/impatient.nvim"
