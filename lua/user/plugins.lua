@@ -66,7 +66,7 @@ return packer.startup(function(use)
   use "unblevable/quick-scope"
 
   -- cover page when initializing nvim
-  use "goolord/alpha-nvim" 
+  use "goolord/alpha-nvim"
 
   use "nvim-lualine/lualine.nvim" -- status line
 
@@ -79,6 +79,8 @@ return packer.startup(function(use)
   use "lambdalisue/nerdfont.vim"      -- for handling nerd fonts
 
   use "tpope/vim-characterize"  -- for revealing character representation with: ga
+  use "tpope/vim-surround" -- change surround thing like parenthesis
+  use "tpope/vim-fugitive" -- git
 
   -- Colorschemes
   use "lunarvim/darkplus.nvim"
