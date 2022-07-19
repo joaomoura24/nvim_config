@@ -19,7 +19,7 @@ Open `nvim` and enter the following:
 
 ## Install fonts
 
-- get any [nerd font](https://www.nerdfonts.com/font-downloads). 
+- get any [nerd font](https://www.nerdfonts.com/font-downloads). (I like the Hack font)
 - move *.ttf font files to folder in ~/.local/share/fonts/<desired_font>
-- fc- cache -f # for cleaning the fonts
+- fc-cache -f # for cleaning the fonts
 - go to terminal preferences and point to desired font
